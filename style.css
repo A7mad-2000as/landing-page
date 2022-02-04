@@ -39,7 +39,8 @@ body {
 }
 
 .hero-text {
-    width: 35%
+    width: 500px;
+    flex-shrink: 0;
 }
 
 .hero-main {
@@ -64,12 +65,13 @@ button {
 }
 
 .image {
-    width: 40%;
+    width: 600px;
     background-color: #6d747d;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .info {
