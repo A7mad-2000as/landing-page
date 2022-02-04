@@ -113,6 +113,33 @@ button {
     color: #6d747d
 }
 
+.quote {
+    flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    margin: 30px 0;
+    width: 40%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #6d747d;
+    margin-bottom: 0;
+}
+
+.quotee {
+    font-size: 24px;
+    text-align: end;
+    font-weight: 800;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
