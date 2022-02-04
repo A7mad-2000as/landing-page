@@ -140,6 +140,34 @@ button {
     font-weight: 800;
 }
 
+.action {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-content {
+    width: 70%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-action-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+.action button {
+    border: 2px solid white;
+    align-self: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
