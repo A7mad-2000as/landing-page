@@ -72,6 +72,47 @@ button {
     align-items: center;
 }
 
+.info {
+    flex: 1;
+}
+
+.info-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.media-objects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media-object {
+    width: 150px;
+}
+
+.media-object-image {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.media-object-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #6d747d
+}
+
 ul {
     list-style-type: none;
     margin: 0;
