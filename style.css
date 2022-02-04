@@ -168,6 +168,15 @@ button {
     align-self: center;
 }
 
+.footer {
+    flex: 1;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
